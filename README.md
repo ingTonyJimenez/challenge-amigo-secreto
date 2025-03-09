@@ -6,6 +6,7 @@
 
 Amigo Secreto es una aplicación interactiva que permite a los usuarios ingresar nombres de amigos en una lista para realizar un sorteo aleatorio y determinar quién será el "amigo secreto".
 
+
 🧰 ¿Cómo funciona?
 
 Los usuarios ingresan nombres a través de un campo de texto y hacen clic en el botón "Adicionar".
@@ -13,6 +14,7 @@ Los usuarios ingresan nombres a través de un campo de texto y hacen clic en el 
 Los nombres ingresados se muestran dinámicamente en una lista.
 
 Al finalizar, el botón "Sortear Amigo" realiza un sorteo aleatorio, mostrando el resultado en pantalla.
+
 
 ✨ Funcionalidades del proyecto
 
@@ -22,6 +24,7 @@ Al finalizar, el botón "Sortear Amigo" realiza un sorteo aleatorio, mostrando e
 
 🖥️ Visualización de resultados: Muestra en pantalla el nombre seleccionado como "amigo secreto".
 
+
 🛠️ Tecnologías utilizadas
 
  HTML5
@@ -29,6 +32,7 @@ Al finalizar, el botón "Sortear Amigo" realiza un sorteo aleatorio, mostrando e
  CSS3
 
  JavaScript
+ 
 
 📦 Cómo clonar el proyecto
 
@@ -38,9 +42,11 @@ git clone https://github.com/ingTonyJimenez/challenge-amigo-secreto.git
 # Abrir el proyecto en tu editor favorito
 code .
 
+
 📄 Estado del proyecto
 
 🚧 En desarrollo: Actualmente se están implementando mejoras en la lógica del sorteo y la validación de entradas.
+
 
 📣 Contribuciones
 
@@ -53,6 +59,7 @@ Crea una rama para tu función o mejora: git checkout -b feature/nueva-funcional
 Realiza un commit con tus cambios: git commit -m 'Agrega nueva funcionalidad'.
 
 Envía un pull request.
+
 
 📬 Contacto
 
