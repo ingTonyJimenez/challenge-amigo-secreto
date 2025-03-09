@@ -10,14 +10,34 @@ let ulResultado = document.querySelector("#resultado");
 
 
 function agregarAmigo(){
-        let nuevoAmigo = amigos.push(inputAmigo.value);
-        ulListaAmigos.innerHTML  += `<li>${inputAmigo.value}</li>`;
+
+if(inputAmigo.value == ""){
+    alert("Por favor, inserte un nombre.");
+}
+
+else{let nuevoAmigo = amigos.push(inputAmigo.value);
+    ulListaAmigos.innerHTML  += `<li>${inputAmigo.value}</li>`;
+limpiarInput();
+}
+        
 };
 
+function limpiarInput(){
+    inputAmigo.value = "";
+}
+
 function sortearAmigo(){
-    let random = Math.floor((Math.random() * amigos.length));
-    let amigoSecreto = amigos[random];
-    ulResultado.innerHTML = `<li> El amigo secreto es: ${amigoSecreto}</li>`;
+
+    if(amigos.length>0){
+        let random = Math.floor((Math.random() * amigos.length));
+        let amigoSecreto = amigos[random];
+        ulResultado.innerHTML = `<li> El amigo secreto es: ${amigoSecreto}</li>`;
+    }
+
+    else{
+        alert("Por favor ingresa al menos 1 nombre");
+    }
+
   
 }
 
