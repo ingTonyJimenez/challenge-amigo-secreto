@@ -1,5 +1,5 @@
 <h1 align="center">Amigo Secreto (Proyecto Alura - Oracle)</h1> 
-<p>![amigo](https://github.com/user-attachments/assets/41d5e1bf-9d4d-43f6-9b65-21502a583214)</p>
+![amigo](https://github.com/user-attachments/assets/41d5e1bf-9d4d-43f6-9b65-21502a583214)
 
  
 
